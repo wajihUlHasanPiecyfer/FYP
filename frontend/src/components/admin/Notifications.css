@@ -1,0 +1,65 @@
+/* Notifications Container */
+.chat-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 55px;
+  }
+  
+  /* Chat Messages */
+  .chat-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+  }
+  
+  /* Individual Chat Message */
+  .chat-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chat-message {
+    margin: 0;
+    flex: 1; /* Use flex: 1 to make the message take up all available space */
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Media Query for Small Screens (e.g., Mobile) */
+  @media (max-width: 768px) {
+    .chat-container {
+      padding: 10px;
+    }
+    
+    .chat-item {
+      flex-direction: column; /* Display chat items in a column on small screens */
+    }
+    
+    .chat-message {
+      margin-bottom: 10px;
+    }
+    
+    .delete-button {
+      width: 100%; /* Make the "Delete" button take up the full width on small screens */
+    }
+  }
+  

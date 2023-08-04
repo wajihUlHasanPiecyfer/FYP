@@ -1,0 +1,53 @@
+/* style for nav image */
+/* nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 20px 80px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+}
+#logo {
+    list-style: none ;
+    padding: 0 20px;
+    position: relative;
+}
+
+#logo a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #000;
+    font-weight:700;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none ;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #000;
+    font-weight:700;
+
+} */
+.navbar-nav {
+  margin-left: 70%;
+}
+.navbar-brand{
+    padding-left: 50px;
+}
+
+  
+  .speedDialIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+
+  

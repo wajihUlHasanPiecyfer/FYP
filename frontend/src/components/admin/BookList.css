@@ -1,0 +1,82 @@
+.productListContainer {
+    background-color: rgb(255, 255, 255);
+    border-left: 1px solid rgba(0, 0, 0, 0.158);
+    padding: 0 0;
+
+  }
+  
+  #productListHeading {
+    font: 400 2rem "Roboto";
+    padding: 0.5vmax;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.637);
+    transition: all 0.5s;
+    margin: 2rem;
+    text-align: center;
+  }
+  .w-130{
+    width: 130px;
+  }
+  
+  .productListTable {
+    background-color: white;
+    height: 100%;
+  }
+  
+  .productListTable div {
+    font: 400 1vmax "Roboto";
+    color: rgba(0, 0, 0, 0.678);
+  }
+  
+  .productListTable a,
+  .productListTable button {
+    color: rgba(0, 0, 0, 0.527);
+    transition: all 0.5s;
+  }
+  
+  .productListTable a:hover {
+    color: rgb(0, 135, 34);
+  }
+  
+  .productListTable button:hover {
+    color: rgb(242, 0, 0);
+  }
+  
+  .MuiDataGrid-columnHeader div {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font: 400 1rem "Roboto";
+  }
+
+  .returned-book{
+    color: red;
+  }
+  
+  .myTable{
+    width: 76vw
+  }
+  .myTablePagianation{
+    height:19vh
+  }
+  .MuiDataGrid-columnHeader {
+    background-color: rgb(192, 192, 192);
+  }
+  .del-btn{
+    display: flex;
+    height: auto;
+  }
+  @media screen and (max-width: 600px) {
+    .productListContainer {
+      height: auto;
+    }
+  
+    #productListHeading {
+      font-size: 1.5rem;
+      margin: 1rem;
+    }
+  
+    .productListTable div {
+      font-size: 2vw;
+    }
+  }
+  

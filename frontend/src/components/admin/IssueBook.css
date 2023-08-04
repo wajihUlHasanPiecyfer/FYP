@@ -1,0 +1,16 @@
+.form-row>[class*=col-] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.user-suggestions{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+    width: 500px;
+}

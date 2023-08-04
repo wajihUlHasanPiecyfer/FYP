@@ -1,0 +1,51 @@
+
+.bookCreateHeading{
+    font-size: 1.8rem;
+    margin: 20px;
+}
+.newProductContainer{
+    box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+    background-color: white;
+    padding: 0 0 ;
+}
+.bookCreateMain{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+    display: flex;
+    flex-wrap: wrap;
+}
+.bookCreateLeft{
+background-color: #e9ecef;
+padding: 1%;
+}
+.createBookFormFile{
+font-size: x-small;
+}
+.bookCreateRight{
+    padding: 1%;
+}
+.image_holder{
+    text-align: center;
+}
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,.075);
+    max-width: 100%;
+    height: auto;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+
+.createBookBtn{
+width: 100%;
+background-color: black;
+border : none;
+border-bottom: 3px solid red;
+}
+

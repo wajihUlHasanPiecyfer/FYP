@@ -1,0 +1,127 @@
+/* footer {
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .leftFooter {
+    width: 20%;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftFooter > h4 {
+    font-family: "Roboto";
+    font-size: 1vmax;
+  }
+  .leftFooter > p {
+    text-align: center;
+    font-size: 1.2vmax;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .leftFooter > img {
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+  }
+  
+  .midFooter {
+    width: 60%;
+  
+    text-align: center;
+  }
+  
+  .midFooter > h1 {
+    font-size: 4vmax;
+    font-family: "Roboto";
+    color: #eb4034;
+  }
+  .midFooter > p {
+    max-width: 60%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin: 1vmax auto;
+  }
+  
+  .rightFooter {
+    width: 20%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightFooter > h4 {
+    font-family: "Roboto";
+    font-size: 1.4vmax;
+    text-decoration: underline;
+  }
+  .rightFooter > a {
+    text-decoration: none;
+    font-size: 1.3vmax;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    transition: all 0.5s;
+    margin: 0.5vmax;
+  }
+  
+  .rightFooter > a:hover {
+    color: #eb4034;
+  } */
+
+#footer .main-footer {
+  padding: 35px 0;
+  background: #252525;
+  padding-bottom: 0;
+}
+
+.widget p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+
+}
+
+.widget.no-box {
+  padding: 0;
+  background-color: transparent;
+  margin-bottom: 40px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.widget-title-footer {
+  margin-bottom: 20px;
+}
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0px;
+  line-height: 1.2;
+  font-size: 18px;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 Roboto;
+  background-color: #3e3e3e;
+  color: #fff;
+  padding: 10px;
+  width: 120px;
+  margin: 4px;
+  border-radius: 5px;
+}
+.footer-copyright {
+  background: #222;
+  padding: 5px 0;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}

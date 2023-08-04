@@ -1,0 +1,36 @@
+.about-us-container {
+    padding: 20px;
+  }
+  
+  .about-us-heading {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .about-us-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .about-us-section {
+    width: 1000px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .section-description {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+

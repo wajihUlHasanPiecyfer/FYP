@@ -1,0 +1,89 @@
+.BookDetails {
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  max-width: 90%;
+  padding: 2vmax;
+  box-sizing: border-box;
+  display: flex;
+  box-shadow: -3px 3px 20px 2px rgba(14, 14, 14, 0.4);
+  margin: 0 auto;
+  margin-top: 20vmin;
+  margin-bottom: 20vmin;
+}
+
+.left {
+  background-color: #2f2c2c;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%; 
+   
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.left > img {
+  width: 100%;
+  border: 3px solid white;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin: 0;
+  overflow: clip;
+}
+
+.right1 {
+  background-color: rgb(255, 255, 255);
+  max-width: 100%;
+  
+  /* margin-bottom: 3rem; */
+   width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.right1 > div > h1 {
+  font-weight: unset;
+  color: #121212;
+  font-size: 4em;
+  font-family: fangsong;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  border-bottom: 2px solid rgb(175, 175, 175);
+}
+
+.details-div {
+  font-size: larger;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+strong {
+  font-weight: bolder;
+}
+.btn-link {
+  font-weight: 400;
+  color: #007bff;
+  text-decoration: none;
+}
+span,
+a {
+  display: inline-block;
+}
+.link-btn{
+  border: 2px solid black;
+  border-radius: 7px;
+}
+@media screen and (max-width: 600px) {
+  .right > div > h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .right > div > h1 {
+    font-size: 3em;
+  }
+}
