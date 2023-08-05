@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const dotenv = require("dotenv")
-const connectDatabase = require("./config/databse.js")
+const connectDatabase = require("./config/database.js")
 const errorMiddleware = require("./middleware/error.js")
 const cloudinary = require ("cloudinary")
 const fileUpload = require ("express-fileupload")
@@ -15,7 +15,7 @@ process.on("uncaughtException", (err) => {
     console.log(err.stack)
     console.log("Shutting down due to Handling uncaught exception")
     process.exit(1)
-     console.log(youtube)
+    //  console.log(youtube)
 })
 
 
@@ -24,7 +24,7 @@ dotenv.config({ path: "config/config.env" })
 
 cloudinary.config({
     cloud_name: process.env.CLOUDINARY_NAME,
-    api_key: process.env.CLOUDINARY_API_KEY,
+    api_key: process.env.CLOUDINARY_API_SECRET,
     api_secret: process.env.CLOUDINARY_API_SECRET
 })
 
