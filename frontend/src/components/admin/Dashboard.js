@@ -60,11 +60,12 @@ const Dashboard = () => {
 
   useEffect(() => {
 
-
-    dispatch(getAdminBook())
-    dispatch(getAllUsers())
-    dispatch(getIssuedBooks())
-  }, [dispatch])
+    if (user && user.role === "admin") {
+      dispatch(getAdminBook());
+      dispatch(getAllUsers());
+      dispatch(getIssuedBooks());
+    }
+  }, [dispatch,user, user.role])
 
   const lineState = {
     labels: ["initial Amount", "Amount Earned"],
@@ -114,23 +115,23 @@ const Dashboard = () => {
             {user.role === "user" && <Link to="/notifications"> <NotificationsActiveIcon className="noti-btn" /></Link>}
           </Typography>
 
-          {user.role === "admin"? (
-          <div className="dashboardSummaryBox2">
-            <Link to="/admin/books">
-              <p>Book</p>
-              <p>{books && books.length}</p>
-            </Link>
+          {user.role === "admin" ? (
+            <div className="dashboardSummaryBox2">
+              <Link to="/admin/books">
+                <p>Book</p>
+                <p>{books && books.length}</p>
+              </Link>
 
-            <Link to="/admin/users">
-              <p>Users</p>
-              <p>{users && users.length}</p>
-            </Link>
+              <Link to="/admin/users">
+                <p>Users</p>
+                <p>{users && users.length}</p>
+              </Link>
 
-            <Link to="/admin/issued-Books">
-              <p>Issued BOOKS</p>
-              <p>{issueBooks && issueBooks.length}</p>
-            </Link>
-          </div>):(null)
+              <Link to="/admin/issued-Books">
+                <p>Issued BOOKS</p>
+                <p>{issueBooks && issueBooks.length}</p>
+              </Link>
+            </div>) : (null)
           }
 
           <div className="lineChart">

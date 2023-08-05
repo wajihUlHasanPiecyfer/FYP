@@ -33,7 +33,7 @@ const Home = () => {
         <Fragment>
 
           <MetaData title="SCHOLAR'S LIBRARY" />
-          <section classname="head-over">
+          <section className="head-over">
           <div className='banner'>
             <p>Welcome To Library</p>
             <h1>Find The Amazing Books</h1>
